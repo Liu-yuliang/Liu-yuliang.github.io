@@ -20,7 +20,8 @@ redirect_from:
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2024.09*: We release [LongRecipe](https://arxiv.org/abs/2409.00509), an efficient long context training method for LLM via PI modification & token selection. Welcome to STAR and FORK!
+ 
 
 
 # 📝 Publications 
