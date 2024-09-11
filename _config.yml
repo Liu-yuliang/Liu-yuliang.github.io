@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Hello"
+title                    : "Yuliang Liu (刘玉梁)"
 description              : "Yuliang Liu (刘玉梁)`s personal homepage."
 repository               : "Liu-yuliang/Liu-yuliang.github.io"
 google_scholar_stats_use_cdn : true
@@ -23,8 +23,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Yuliang Liu (刘玉梁)"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "Nanjing University"
-  location         : "Nanjing, China"
+  bio              : "Nanjing University & Shanghai Innovation Institute"
+  location         : "Shanghai, China"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=rmxvSgQAAAAJ"
