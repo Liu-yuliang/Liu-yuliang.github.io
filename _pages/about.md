@@ -47,7 +47,7 @@ previously,
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 # 📖 Educations
-- *2024.09 - now*, Nanjing University & Shanghai Innovation Institute, Shanghai. 
+- *2024.09 - now*, PhD Student, Nanjing University & Shanghai Innovation Institute, Shanghai. 
 - *2021.09 - 2024.06*, Master, Nanjing University, Nanjing.
 - *2017.09 - 2021.06*, Undergraduate, Shandong Univeristy, Jinan. 
 
