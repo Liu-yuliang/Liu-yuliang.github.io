@@ -17,9 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am in SII now. 
+Hi, thank you for your attention. I am Yuliang Liu（刘玉梁）. I have been pursuing my Ph.D. at Nanjing University since 2024, and now I am jointly trained at Shanghai Innovation Institute. My supervisor at SII is Professor Zhouhan Lin.
 
-previously,
+Prior to this, I pursued my Master's degree at Nanjing University under the supervision of Professor Qing Gu and Assistant Professor Zhiwei Jiang. I obtained my Bachelor's degree from Shandong University in 2021.
 
 # 🔥 News
 - *2024.09*: We release [LongRecipe](https://arxiv.org/abs/2409.00509), an efficient long context training method for LLM via PI modification & token selection. Welcome to STAR and FORK!
