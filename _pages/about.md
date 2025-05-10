@@ -25,7 +25,7 @@ Before this, I learn at Nanjing University under the supervision of Professor Qi
 
 - *2025.05*: One paper ([AdaptiveStep](https://arxiv.org/abs/2502.13943)) was accepted by ICML'25.
 
-- *2025.02*: We release [AdaptiveStep](https://arxiv.org/abs/2502.13943), a new method to divide CoT steps with model confidence.
+- *2025.02*: We release [AdaptiveStep](https://arxiv.org/abs/2502.13943), a simple yet effective method to divide CoT steps with model confidence.
 
 - *2024.09*: We release [LongRecipe](https://arxiv.org/abs/2409.00509), an efficient long context training method for LLM via PI modification & token selection. Welcome to STAR and FORK!
 
