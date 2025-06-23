@@ -16,7 +16,7 @@ jobs:
     - name: Run
       run: |
         cd ./google_scholar_crawler
-        python3 -m pip3 install -r requirements.txt
+        pip3 install -r requirements.txt
         export GOOGLE_SCHOLAR_ID=rmxvSgQAAAAJ
         print(123123123)
         print(123123123)
