@@ -14,313 +14,202 @@
   </head>
 
   <body>
-    <main class="site-shell">
-      <section class="hero">
-        <div class="hero-copy">
-          <p class="eyebrow">Large Language Models, Reasoning, Evaluation</p>
-          <h1 class="name">Yuliang Liu <span>(刘玉梁)</span></h1>
-          <p class="hero-subtitle">
-            Ph.D. Student at Nanjing University | Jointly trained at Shanghai Innovation Institute
-          </p>
-          <p class="hero-text">
-            I am a Ph.D. student at Nanjing University, jointly trained at Shanghai Innovation
-            Institute, where I am advised by <a href="https://hantek.github.io/">Zhouhan Lin</a>.
-            Previously, I worked with Qing Gu and Zhiwei Jiang at Nanjing University.
-          </p>
-          <p class="hero-text">
-            Before that, I received my bachelor's degree in materials science from Shandong
-            University in 2021. My recent research focuses on large language model pre-training,
-            reasoning, long-context modeling, and evaluation.
-          </p>
-          <div class="tag-row">
-            <span class="tag">LLM Pre-training</span>
-            <span class="tag">Reasoning</span>
-            <span class="tag">Long Context</span>
-            <span class="tag">Evaluation</span>
-          </div>
-          <div class="link-row">
-            <a href="mailto:liuyl03181@gmail.com">Email</a>
-            <a href="https://scholar.google.com/citations?user=rmxvSgQAAAAJ&amp;hl=en">Google Scholar</a>
-            <a href="https://github.com/Liu-yuliang">GitHub</a>
-            <a href="https://x.com/liu_yulian63805">X</a>
-          </div>
-        </div>
+    <div id="layout-content">
+      <table class="hero-table">
+        <tbody>
+          <tr>
+            <td class="hero-text-cell">
+              <div id="toptitle">
+                <h1>Yuliang Liu <span class="chinese-name">刘玉梁</span></h1>
+              </div>
+              <p class="hero-subtitle">
+                Ph.D. Student, <a href="https://www.nju.edu.cn/en/">Nanjing University</a> |
+                Jointly trained at <a href="https://www.shii.org.cn/">Shanghai Innovation Institute</a>
+              </p>
+              <p>
+                I am a Ph.D. student at Nanjing University, jointly trained at Shanghai Innovation
+                Institute, where I am advised by <a href="https://hantek.github.io/">Zhouhan Lin</a>.
+                Previously, I worked with
+                <a href="https://isetnju.github.io/guq/index.html">Qing Gu</a> and
+                <a href="https://cs.nju.edu.cn/jzw/">Zhiwei Jiang</a> at Nanjing University.
+                Before that, I received my bachelor's degree from
+                <a href="https://www.sdu.edu.cn/">Shandong University</a> in 2021.
+              </p>
+              <p>
+                I have worked on almost the full LLM pipeline, including evaluation, post-training,
+                long-context modeling, reasoning, and efficient inference. Since 2025, I have
+                focused primarily on pre-training, which I view as the foundation of model
+                capability.
+              </p>
+              <p class="link-row">
+                [<a href="mailto:liuyl03181@gmail.com">Email</a>]
+                [<a href="https://scholar.google.com/citations?user=rmxvSgQAAAAJ&amp;hl=en">Google Scholar</a>]
+                [<a href="https://github.com/Liu-yuliang">GitHub</a>]
+                [<a href="https://x.com/liu_yulian63805">X</a>]
+              </p>
+            </td>
+            <td class="hero-image-cell">
+              <img src="images/me_img/me.jpg" alt="Yuliang Liu profile photo" class="profile-photo">
+              <p class="photo-note">The right one is me.</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
 
-        <div class="photo-card">
-          <a href="images/me_img/me.jpg">
-            <img
-              src="images/me_img/me.jpg"
-              alt="Yuliang Liu profile photo"
-              class="hero-photo"
-            >
-          </a>
-          <p class="photo-note">Based in Nanjing and Shanghai.</p>
-        </div>
-      </section>
+      <h2>Biography</h2>
+      <p>
+        My recent research centers on large language model pre-training and capability development.
+        I am particularly interested in how better data, objectives, and training recipes can
+        improve downstream reasoning and generalization.
+      </p>
+      <p>
+        More broadly, I enjoy building a full-stack understanding of language models, from how we
+        train them, to how we evaluate them, to how we make them useful in real systems.
+      </p>
 
-      <nav class="section-nav" aria-label="Section navigation">
-        <a href="#news">News</a>
-        <a href="#research">Research</a>
-        <a href="#publications">Publications</a>
-        <a href="#service">Service</a>
-        <a href="#awards">Awards</a>
-      </nav>
+      <h2>News</h2>
+      <ul class="scrollable-list">
+        <li>[10/2025] We released <a href="https://arxiv.org/abs/2510.20280">ContextLM</a>, a pre-training LLM architecture that learns beyond next-token prediction.</li>
+        <li>[10/2025] We released <a href="https://arxiv.org/abs/2510.11104">CGPO</a>, a training method for enhancing reasoning with non-human-like reasoning paths.</li>
+        <li>[05/2025] <a href="https://arxiv.org/abs/2502.13943">AdaptiveStep</a> was accepted to ICML 2025.</li>
+        <li>[05/2025] <a href="https://arxiv.org/abs/2409.00509">LongRecipe</a> was accepted to ACL 2025 main conference.</li>
+        <li>[02/2025] We released <a href="https://arxiv.org/abs/2502.13943">AdaptiveStep</a>, a simple and effective way to divide reasoning steps with model confidence.</li>
+        <li>[09/2024] We released <a href="https://arxiv.org/abs/2409.00509">LongRecipe</a>, an efficient long-context training method.</li>
+      </ul>
 
-      <section class="section-card" id="news">
-        <div class="section-header">
-          <h2>News</h2>
-          <p>Selected updates</p>
-        </div>
-        <div class="news-panel">
-          <article class="news-item">
-            <time>2025.10</time>
-            <p>
-              We released <a href="https://arxiv.org/abs/2510.20280">ContextLM</a>, a pre-training
-              LLM architecture that learns beyond next-token prediction.
-            </p>
-          </article>
-          <article class="news-item">
-            <time>2025.10</time>
-            <p>
-              We released <a href="https://arxiv.org/abs/2510.11104">CGPO</a>, a training method for
-              enhancing reasoning with non-human-like reasoning paths.
-            </p>
-          </article>
-          <article class="news-item">
-            <time>2025.05</time>
-            <p>
-              <a href="https://arxiv.org/abs/2502.13943">AdaptiveStep</a> was accepted to ICML 2025.
-            </p>
-          </article>
-          <article class="news-item">
-            <time>2025.05</time>
-            <p>
-              <a href="https://arxiv.org/abs/2409.00509">LongRecipe</a> was accepted to ACL 2025
-              main conference.
-            </p>
-          </article>
-          <article class="news-item">
-            <time>2025.02</time>
-            <p>
-              We released <a href="https://arxiv.org/abs/2502.13943">AdaptiveStep</a>, a simple and
-              effective way to divide reasoning steps with model confidence.
-            </p>
-          </article>
-          <article class="news-item">
-            <time>2024.09</time>
-            <p>
-              We released <a href="https://arxiv.org/abs/2409.00509">LongRecipe</a>, an efficient
-              long-context training method.
-            </p>
-          </article>
-        </div>
-      </section>
+      <h2>
+        Publications
+        <span class="section-note">(* denotes equal contribution)</span>
+      </h2>
 
-      <section class="section-card" id="research">
-        <div class="section-header">
-          <h2>Research</h2>
-          <p>What I work on</p>
+      <div class="subsection-heading">
+        <h3>First-author and co-first-author papers</h3>
+      </div>
+
+      <div class="publication-container">
+        <div class="publication-image">
+          <img src="images/paper_img/CGPO.png" alt="CGPO paper preview">
         </div>
-        <div class="research-copy">
+        <div class="publication-title">
           <p>
-            I study how to train and use language models more effectively. My current work centers
-            on pre-training objectives, long-context generalization, and reasoning.
+            Enhancing LLM Reasoning via Non-Human-Like Reasoning Path Preference Optimization<br>
+            Junjie Lu*, <strong>Yuliang Liu*</strong>, Chaofeng Qu, Wei Shen, Zhouhan Lin, Min Xu<br>
+            <em>arXiv</em>, 2025
+            [<a href="https://arxiv.org/abs/2510.11104">Paper</a>]
           </p>
+        </div>
+      </div>
+
+      <div class="publication-container">
+        <div class="publication-image">
+          <img src="images/paper_img/AdaptiveStep.png" alt="AdaptiveStep paper preview">
+        </div>
+        <div class="publication-title">
           <p>
-            I am also interested in evaluation, efficient inference, and building practical LLM
-            systems that work reliably in real workflows.
+            AdaptiveStep: Automatically Dividing Reasoning Step through Model Confidence<br>
+            <strong>Yuliang Liu*</strong>, Junjie Lu*, Chaofeng Qu, Zhaoling Chen, Zefan Cai, Jason Klein Liu, Chonghan Liu, Yunhui Xia, Li Zhao, Jiang Bian, Chuheng Zhang, Wei Shen, Zhouhan Lin<br>
+            <em>ICML</em>, 2025
+            [<a href="https://github.com/Lux0926/ASPRM">Code</a>]
+            [<a href="https://arxiv.org/abs/2502.13943">Paper</a>]
           </p>
         </div>
-      </section>
+      </div>
 
-      <section class="section-card" id="publications">
-        <div class="section-header">
-          <h2>Selected Publications</h2>
-          <p>* denotes equal contribution</p>
+      <div class="publication-container">
+        <div class="publication-image">
+          <img src="images/paper_img/LongRecipe.png" alt="LongRecipe paper preview">
         </div>
-
-        <h3 class="subsection-title">First-author and co-first-author papers</h3>
-        <div class="paper-list">
-          <article class="paper-card">
-            <div class="paper-media">
-              <img src="images/paper_img/CGPO.png" alt="CGPO paper preview">
-            </div>
-            <div class="paper-content">
-              <p class="paper-title">
-                <a href="https://arxiv.org/abs/2510.11104">
-                  Enhancing LLM Reasoning via Non-Human-Like Reasoning Path Preference Optimization
-                </a>
-              </p>
-              <p class="paper-authors">
-                Junjie Lu*, <strong>Yuliang Liu*</strong>, Chaofeng Qu, Wei Shen, Zhouhan Lin, Min Xu
-              </p>
-              <p class="paper-meta"><em>arXiv</em>, 2025</p>
-              <div class="paper-links">
-                <a href="https://arxiv.org/abs/2510.11104">arXiv</a>
-              </div>
-            </div>
-          </article>
-
-          <article class="paper-card">
-            <div class="paper-media">
-              <img src="images/paper_img/AdaptiveStep.png" alt="AdaptiveStep paper preview">
-            </div>
-            <div class="paper-content">
-              <p class="paper-title">
-                <a href="https://arxiv.org/abs/2502.13943">
-                  AdaptiveStep: Automatically Dividing Reasoning Step through Model Confidence
-                </a>
-              </p>
-              <p class="paper-authors">
-                <strong>Yuliang Liu*</strong>, Junjie Lu*, Chaofeng Qu, Zhaoling Chen, Zefan Cai,
-                Jason Klein Liu, Chonghan Liu, Yunhui Xia, Li Zhao, Jiang Bian, Chuheng Zhang, Wei
-                Shen, Zhouhan Lin
-              </p>
-              <p class="paper-meta"><em>ICML</em>, 2025</p>
-              <div class="paper-links">
-                <a href="https://github.com/Lux0926/ASPRM">GitHub</a>
-                <a href="https://arxiv.org/abs/2502.13943">arXiv</a>
-              </div>
-            </div>
-          </article>
-
-          <article class="paper-card">
-            <div class="paper-media">
-              <img src="images/paper_img/LongRecipe.png" alt="LongRecipe paper preview">
-            </div>
-            <div class="paper-content">
-              <p class="paper-title">
-                <a href="https://aclanthology.org/2025.acl-long.581/">
-                  LongRecipe: Recipe for Efficient Long Context Generalization in Large Language
-                  Models
-                </a>
-              </p>
-              <p class="paper-authors">
-                Zhiyuan Hu*, <strong>Yuliang Liu*</strong>, Jinman Zhao, Suyuchen Wang, WangYan
-                WangYan, Wei Shen, Qing Gu, Anh Tuan Luu, See-Kiong Ng, Zhiwei Jiang, Bryan Hooi
-              </p>
-              <p class="paper-meta"><em>ACL main</em>, 2025</p>
-              <div class="paper-links">
-                <a href="https://github.com/zhiyuanhubj/LongRecipe">GitHub</a>
-                <a href="https://aclanthology.org/2025.acl-long.581/">Paper</a>
-              </div>
-            </div>
-          </article>
-
-          <article class="paper-card">
-            <div class="paper-media">
-              <img src="images/paper_img/LWRS.png" alt="LWRS paper preview">
-            </div>
-            <div class="paper-content">
-              <p class="paper-title">
-                <a href="https://dl.acm.org/doi/abs/10.1145/3539618.3591695">
-                  Unsupervised Readability Assessment via Learning from Weak Readability Signals
-                </a>
-              </p>
-              <p class="paper-authors">
-                <strong>Yuliang Liu</strong>, Zhiwei Jiang, Yafeng Yin, Cong Wang, Sheng Chen,
-                Zhaoling Chen, Qing Gu
-              </p>
-              <p class="paper-meta"><em>SIGIR</em>, 2023</p>
-              <div class="paper-links">
-                <a href="https://dl.acm.org/doi/abs/10.1145/3539618.3591695">Paper</a>
-              </div>
-            </div>
-          </article>
+        <div class="publication-title">
+          <p>
+            LongRecipe: Recipe for Efficient Long Context Generalization in Large Language Models<br>
+            Zhiyuan Hu*, <strong>Yuliang Liu*</strong>, Jinman Zhao, Suyuchen Wang, WangYan WangYan, Wei Shen, Qing Gu, Anh Tuan Luu, See-Kiong Ng, Zhiwei Jiang, Bryan Hooi<br>
+            <em>ACL main</em>, 2025
+            [<a href="https://github.com/zhiyuanhubj/LongRecipe">Code</a>]
+            [<a href="https://aclanthology.org/2025.acl-long.581/">Paper</a>]
+          </p>
         </div>
+      </div>
 
-        <h3 class="subsection-title">Selected co-authored papers</h3>
-        <div class="paper-list">
-          <article class="paper-card">
-            <div class="paper-media">
-              <img src="images/paper_img/ContextLM.png" alt="ContextLM paper preview">
-            </div>
-            <div class="paper-content">
-              <p class="paper-title">
-                <a href="https://arxiv.org/abs/2510.20280">
-                  Context-level Language Modeling by Learning Predictive Context Embeddings
-                </a>
-              </p>
-              <p class="paper-authors">
-                Beiya Dai, <strong>Yuliang Liu</strong>, Daozheng Xue, Qipeng Guo, Kai Chen, Xinbing
-                Wang, Bowen Zhou, Zhouhan Lin
-              </p>
-              <p class="paper-meta"><em>arXiv</em>, 2025</p>
-              <div class="paper-links">
-                <a href="https://github.com/LUMIA-Group/ContextLM">GitHub</a>
-                <a href="https://arxiv.org/abs/2510.20280">arXiv</a>
-              </div>
-            </div>
-          </article>
-
-          <article class="paper-card">
-            <div class="paper-media">
-              <img src="images/paper_img/PyramidKV.png" alt="PyramidKV paper preview">
-            </div>
-            <div class="paper-content">
-              <p class="paper-title">
-                <a href="https://arxiv.org/abs/2406.02069">
-                  PyramidKV: Dynamic KV Cache Compression based on Pyramidal Information Funneling
-                </a>
-              </p>
-              <p class="paper-authors">
-                Zefan Cai, Yichi Zhang, Bofei Gao, <strong>Yuliang Liu</strong>, Yucheng Li, Tianyu
-                Liu, Keming Lu, Wayne Xiong, Yue Dong, Junjie Hu, Wen Xiao
-              </p>
-              <p class="paper-meta"><em>CoLM</em>, 2025</p>
-              <div class="paper-links">
-                <a href="https://github.com/Zefan-Cai/KVCache-Factory">GitHub</a>
-                <a href="https://arxiv.org/abs/2406.02069">arXiv</a>
-              </div>
-            </div>
-          </article>
-
-          <article class="paper-card">
-            <div class="paper-media">
-              <img src="images/paper_img/AP-Adapter.png" alt="AP-Adapter paper preview">
-            </div>
-            <div class="paper-content">
-              <p class="paper-title">
-                <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/b2077e6d66da612fcb701589efa9ce88-Abstract-Conference.html">
-                  AP-Adapter: Improving Generalization of Automatic Prompts on Unseen Text-to-Image
-                  Diffusion Models
-                </a>
-              </p>
-              <p class="paper-authors">
-                Yuchen Fu, Zhiwei Jiang, <strong>Yuliang Liu</strong>, Cong Wang, Zexuan Deng,
-                Zhaoling Chen, Qing Gu
-              </p>
-              <p class="paper-meta"><em>NeurIPS</em>, 2024</p>
-              <div class="paper-links">
-                <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/b2077e6d66da612fcb701589efa9ce88-Abstract-Conference.html">Paper</a>
-              </div>
-            </div>
-          </article>
+      <div class="publication-container">
+        <div class="publication-image">
+          <img src="images/paper_img/LWRS.png" alt="LWRS paper preview">
         </div>
-      </section>
-
-      <section class="section-card" id="service">
-        <div class="section-header">
-          <h2>Academic Service</h2>
-          <p>Current activity</p>
+        <div class="publication-title">
+          <p>
+            Unsupervised Readability Assessment via Learning from Weak Readability Signals<br>
+            <strong>Yuliang Liu</strong>, Zhiwei Jiang, Yafeng Yin, Cong Wang, Sheng Chen, Zhaoling Chen, Qing Gu<br>
+            <em>SIGIR</em>, 2023
+            [<a href="https://dl.acm.org/doi/abs/10.1145/3539618.3591695">Paper</a>]
+          </p>
         </div>
-        <ul class="simple-list">
-          <li>Invited reviewer, ICLR 2026</li>
-        </ul>
-      </section>
+      </div>
 
-      <section class="section-card" id="awards">
-        <div class="section-header">
-          <h2>Awards</h2>
-          <p>Selected honors</p>
+      <div class="subsection-heading">
+        <h3>Selected co-authored papers</h3>
+      </div>
+
+      <div class="publication-container">
+        <div class="publication-image">
+          <img src="images/paper_img/ContextLM.png" alt="ContextLM paper preview">
         </div>
-        <ul class="simple-list">
-          <li>Xiaomi Grand Prize Scholarship of Nanjing University, 2023</li>
-          <li>First Prize Academic Scholarship of Nanjing University for Graduate Students, 2023 and 2024</li>
-        </ul>
-      </section>
+        <div class="publication-title">
+          <p>
+            Context-level Language Modeling by Learning Predictive Context Embeddings<br>
+            Beiya Dai, <strong>Yuliang Liu</strong>, Daozheng Xue, Qipeng Guo, Kai Chen, Xinbing Wang, Bowen Zhou, Zhouhan Lin<br>
+            <em>arXiv</em>, 2025
+            [<a href="https://github.com/LUMIA-Group/ContextLM">Code</a>]
+            [<a href="https://arxiv.org/abs/2510.20280">Paper</a>]
+          </p>
+        </div>
+      </div>
+
+      <div class="publication-container">
+        <div class="publication-image">
+          <img src="images/paper_img/PyramidKV.png" alt="PyramidKV paper preview">
+        </div>
+        <div class="publication-title">
+          <p>
+            PyramidKV: Dynamic KV Cache Compression based on Pyramidal Information Funneling<br>
+            Zefan Cai, Yichi Zhang, Bofei Gao, <strong>Yuliang Liu</strong>, Yucheng Li, Tianyu Liu, Keming Lu, Wayne Xiong, Yue Dong, Junjie Hu, Wen Xiao<br>
+            <em>CoLM</em>, 2025
+            [<a href="https://github.com/Zefan-Cai/KVCache-Factory">Code</a>]
+            [<a href="https://arxiv.org/abs/2406.02069">Paper</a>]
+          </p>
+        </div>
+      </div>
+
+      <div class="publication-container">
+        <div class="publication-image">
+          <img src="images/paper_img/AP-Adapter.png" alt="AP-Adapter paper preview">
+        </div>
+        <div class="publication-title">
+          <p>
+            AP-Adapter: Improving Generalization of Automatic Prompts on Unseen Text-to-Image Diffusion Models<br>
+            Yuchen Fu, Zhiwei Jiang, <strong>Yuliang Liu</strong>, Cong Wang, Zexuan Deng, Zhaoling Chen, Qing Gu<br>
+            <em>NeurIPS</em>, 2024
+            [<a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/b2077e6d66da612fcb701589efa9ce88-Abstract-Conference.html">Paper</a>]
+          </p>
+        </div>
+      </div>
+
+      <h2>Academic Service</h2>
+      <p>Conference reviewer: ICLR 2026.</p>
+
+      <h2>Awards</h2>
+      <p>
+        Xiaomi Grand Prize Scholarship of Nanjing University, 2023.<br>
+        First Prize Academic Scholarship of Nanjing University for Graduate Students, 2023 and 2024.
+      </p>
+
+      <div class="visitor-map">
+        <script
+          type="text/javascript"
+          id="mapmyvisitors"
+          src="//mapmyvisitors.com/map.js?d=N3krIowytBF2p_K13lchv3Q1BLdGEPw7YGoUHWxDnO0&amp;cl=ffffff&amp;w=a"
+        ></script>
+      </div>
 
       <p class="footer-note">Last updated in April 2026.</p>
-    </main>
+    </div>
   </body>
 </html>
