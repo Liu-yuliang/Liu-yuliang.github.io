@@ -183,6 +183,10 @@ h3 {
   transform-origin: top center;
 }
 
+.visitor-map.is-hidden {
+  display: none;
+}
+
 @media (max-width: 760px) {
   #layout-content {
     margin: 0;
